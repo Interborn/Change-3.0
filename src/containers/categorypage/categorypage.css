@@ -6,5 +6,39 @@
 }
 
 .content {
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.content h1 {
+    font-size: 50px;
+    max-width: 16ch;
+}
+
+.content p {
+    display: flex;
+    flex-direction: column;
+    max-width: 40ch;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.content button {
+    padding: 20px 10px;
+    width: 200px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+}
+
+.content button:hover {
+    cursor: pointer;
+}
+
+.textbox p {
+    margin-top: 30px;
 }

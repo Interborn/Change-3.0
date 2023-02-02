@@ -6,16 +6,16 @@
 .cause h1 {
     position: relative;
     margin-left: 20px;
-    margin-right: -160px;
+    margin-right: -130px;
     color: whitesmoke;
-    font-size: 34px;
-    font-weight: 600;
-    width: 12ch;
+    font-size: 30px;
+    font-weight: 500;
+    width: 11ch;
 }
 
 .coverimage {
-    width: 260px;
-    height: 160px;
+    width: 220px;
+    height: 140px;
     border-radius: 3.5px;
     margin: 15px 0px;
     opacity: 100%;

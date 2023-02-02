@@ -6,9 +6,13 @@ const CategoryPage = () => {
   return (
     <div className='categorypage'>
       <div className='content'>
-        <h1>Content</h1>
+        <div className='textbox'>
+          <h1>Save the World with Crypto</h1>
+          <p>Lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen lorem ipsen</p>
+        </div>
+        <button>Watch Video</button>
       </div>
-      <div className='content'>
+      <div className='causelist-component'>
         <CauseList />
       </div>
     </div>
