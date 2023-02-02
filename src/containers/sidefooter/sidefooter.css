@@ -1,0 +1,30 @@
+.sidefooter {
+    width: 60px;
+    height: 100vh;
+    /* background-image: linear-gradient(180deg,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );    display: flex; */
+    background: radial-gradient( circle farthest-corner at 50% 20%,  rgba(0,153,238,1) 0%, rgba(1,38,101,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 40px;
+    margin-top: 20px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+

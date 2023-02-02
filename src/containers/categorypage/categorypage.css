@@ -1,0 +1,10 @@
+.categorypage {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+
+.content {
+    padding: 40px;
+}
