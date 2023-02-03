@@ -1,22 +1,23 @@
-import React from 'react'
-import { ListScroll, Navbar, Causes, Sidebar } from './components';
-import { CategoryPage, CausePageNorth, CausePageSouth, Footer, Sidefooter } from './containers';
-import './app.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Categories from "./pages/Categories";
 
-const App = () => {
+export default function App() {
   return (
-    <div className='App'>
-      <div className='sidefooter-bg'>
-        <Sidefooter />
-      </div>
-      <main>
-        <div className='navbar-bg'>
-          <Navbar />
-        </div>
-        <CategoryPage />
-      </main>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="categories" element={<Categories />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
