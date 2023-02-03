@@ -23,4 +23,4 @@ const CauseList = () => {
   )
 }
 
-export default CauseList
+export default CauseList;
